@@ -7,7 +7,7 @@ defmodule LiveViewDiffWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_live_view_diff_key",
-    signing_salt: "c+JesZ8d"
+    signing_salt: "FUziY66y"
   ]
 
   socket "/socket", LiveViewDiffWeb.UserSocket,

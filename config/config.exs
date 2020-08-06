@@ -13,10 +13,10 @@ config :live_view_diff,
 # Configures the endpoint
 config :live_view_diff, LiveViewDiffWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "sk2vjEUl+Zy2nDwbFS3woiXOSUTCTuCBqIn0F2suI+RTg6ufW+A457YcY9K9im0W",
+  secret_key_base: "Mycpr6aUWdbvMziqP1jfshRkkHizni6qqI8kV5LEWcm0JXzraDdflNHFTmPFRXFh",
   render_errors: [view: LiveViewDiffWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: LiveViewDiff.PubSub,
-  live_view: [signing_salt: "smFNukD8"]
+  live_view: [signing_salt: "81gxsqJD"]
 
 # Configures Elixir's Logger
 config :logger, :console,
